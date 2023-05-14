@@ -1,17 +1,22 @@
 import React from 'react';
-import "./App.css";
+import { Routes, Route } from 'react-router-dom';
+import "./styles/app.css";
+
 import Dashboard from './Dashboard';
 import Login from './Login';
-import  DashboardData  from './DashboardData';
+import DashboardData from './dashboard_data';
 
 
 function App() {
-  return <div>
-  <Login />
-  <Dashboard /> 
-  <DashboardData /> 
-  </div>
-  
+  return (
+    <Routes>
+      <Route path='/*' element={<Login />} />
+      <Route path='/dashboard' element={<Dashboard />} />
+      {/* <DashboardData /> */}
+
+    </Routes>
+
+  )
 }
 
 export default App;

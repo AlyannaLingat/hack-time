@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import "./App.css";
-// import "./Login.css";
-// import {Dashboard} from './Dashboard';
+import { useNavigate } from "react-router";
+
 
 function Login() {
+  const navigate = useNavigate();
   // React States
   const [errorMessages, setErrorMessages] = useState({});
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   // User Login info
-  const database = [ 
+  const database = [
     {
       username: "admin1",
       password: "pass1"
@@ -51,15 +51,15 @@ function Login() {
   // Generate JSX code for error message
   const renderErrorMessage = (name) =>
     name === errorMessages.name && (
-    <div className="error">{errorMessages.message}</div>
+      <div className="error">{errorMessages.message}</div>
     );
 
   // JSX code for login form
   const renderForm = (
     <div className="App">
       <form onSubmit={handleSubmit}>
-      
-      <div className="admin">Admin</div> 
+
+        <div className="admin">Admin</div>
         <div className="login">Login</div>
         <div className='email'>
           <label>Username </label>
@@ -72,14 +72,14 @@ function Login() {
           {renderErrorMessage("pass")}
         </div>
         <div  >
-          <input className="submit"  type="submit" />
-        </div> 
+          <input className="submit" type="submit" />
+        </div>
 
 
         <div className="HT">HackTime</div>
         <div className="Tracker">Date & Time Hacktime Employee Tracker</div>
 
-       
+
       </form>
     </div>
   );
@@ -87,7 +87,7 @@ function Login() {
   return (
     <div className="app">
       <div className="login-form">
-        {isSubmitted ? <div></div> : renderForm}
+        {isSubmitted ? navigate('/dashboard') : renderForm}
       </div>
     </div>
   );

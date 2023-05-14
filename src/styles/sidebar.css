@@ -1,0 +1,24 @@
+.sidebar {
+   width: 200px;
+   height: 100vh; /* Set the sidebar height to 100% of the viewport height */
+   background-color: #f0f0f0;
+ }
+ 
+ .sidebar-menu {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ .sidebar-item {
+   padding: 10px;
+   margin-bottom: 10px; /* Add a margin at the bottom of each item */
+   border-bottom: 1px solid #ccc;
+   cursor: pointer;
+ }
+ 
+ .sidebar-item:last-child {
+   margin-bottom: 0; /* Remove margin from the last item */
+   border-bottom: none;
+ }
+ 
