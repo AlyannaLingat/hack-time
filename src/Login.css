@@ -1,0 +1,112 @@
+.App {
+    box-sizing: border-box;
+    position: relative;
+    width: 1230px;
+    height: 795px; 
+    background: radial-gradient(25.56% 50.54% at 25.59% 119.04%, rgba(141, 135, 135, 0.2) 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(35.91% 35.91% at 93.34% 82.34%, rgba(237, 234, 232, 0.2) 0.86%, rgba(129, 111, 100, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(74.49% 117.78% at 71.22% 44.24%, rgba(231, 224, 218, 0.726597) 14.11%, rgba(196, 192, 190, 0) 33.74%, #9A9A9A 88.62%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 1px solid #000000;
+    }
+    .admin{
+    position: absolute;
+    width: 318px;
+    height: 176px;
+    left: 257px;
+    top: 161px;
+    font-family: Capriola;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 76px;
+    color: #6BC258;
+    }
+    .login{
+    position: absolute;
+    width: 318px;
+    height: 176px;
+    left: 257px;
+    top: 230px;
+    font-family: Capriola;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 76px;
+    color: #414141;
+    }
+    .email{
+    position: absolute;
+    width: 142px;
+    height: 20px;
+    left: 264px;
+    top: 344px;
+    font-family: Capriola;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #010101;
+    }
+    .input1{
+    box-sizing: border-box;
+    width: 223px;
+    height: 35px;
+    left: 257px;
+    top: 471px;
+    background: rgba(255, 253, 253, 0.1);
+    border: 3px solid #66C15C;
+    border-radius: 14px;
+    }
+    .pass{
+      position: absolute;
+    width: 142px;
+    height: 20px;
+    left: 264px;
+    top: 450px;
+    font-family: Capriola;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+     color: #040404; 
+    }
+    .input2{
+      box-sizing: border-box;
+    width: 223px;
+    height: 35px;
+    left: 258px;
+    top: 577px;
+     background: rgba(255, 255, 255, 0.1); 
+    border: 3px solid #66C15C;
+    border-radius: 14px;
+    }
+    
+    .submit{
+    position: absolute;
+    box-sizing: border-box;
+    width: 87px;
+    height: 33px;
+    left: 264px;
+    top: 554px; 
+    background: #3BB978;
+    box-shadow: inset 0px 4px 4px #6BC258;
+    border-radius: 10px;
+    } 
+    
+    .HT{
+    position: absolute;
+    width: 222px;
+    height: 81px;
+    left: 923px;
+    top: 516px;
+    }
+    .Tracker{
+    position: absolute;
+    width: 256px;
+    height: 18px;
+    left: 931px;
+    top: 569px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+    color: #000000;
+    }
+    
