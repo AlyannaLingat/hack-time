@@ -74,8 +74,6 @@ function Login() {
         <div  >
           <input className="submit" type="submit" />
         </div>
-
-
         <div className="HT">HackTime</div>
         <div className="Tracker">Date & Time Hacktime Employee Tracker</div>
 
@@ -87,7 +85,7 @@ function Login() {
   return (
     <div className="app">
       <div className="login-form">
-        {isSubmitted ? navigate('/dashboard') : renderForm}
+        {isSubmitted ? navigate('/dashboard'): renderForm}
       </div>
     </div>
   );

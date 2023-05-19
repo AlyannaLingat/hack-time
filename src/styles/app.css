@@ -1,11 +1,30 @@
-.App {
+/* @media screen and (min-width: 480px){
+  .App {
+    box-sizing: border-box;
+    position: relative;
+    width: 460px;
+    height: 795px; 
+    background: radial-gradient(25.56% 50.54% at 25.59% 119.04%, rgba(141, 135, 135, 0.2) 0%, rgba(0, 0, 0, 0) 100%) , radial-gradient(35.91% 35.91% at 93.34% 82.34%, rgba(237, 234, 232, 0.2) 0.86%, rgba(129, 111, 100, 0) 100%) , radial-gradient(74.49% 117.78% at 71.22% 44.24%, rgba(231, 224, 218, 0.726597) 14.11%, rgba(196, 192, 190, 0) 33.74%, #9A9A9A 88.62%);
+    border: 1px solid #000000;
+    }
+} */
+
+ .App {
 box-sizing: border-box;
 position: relative;
 width: 1230px;
 height: 795px; 
 background: radial-gradient(25.56% 50.54% at 25.59% 119.04%, rgba(141, 135, 135, 0.2) 0%, rgba(0, 0, 0, 0) 100%) , radial-gradient(35.91% 35.91% at 93.34% 82.34%, rgba(237, 234, 232, 0.2) 0.86%, rgba(129, 111, 100, 0) 100%) , radial-gradient(74.49% 117.78% at 71.22% 44.24%, rgba(231, 224, 218, 0.726597) 14.11%, rgba(196, 192, 190, 0) 33.74%, #9A9A9A 88.62%);
 border: 1px solid #000000;
+
+@media (max-width: 768px) {
+  /* Styles for screens up to 768px */
+  /* .col-sm-6  */
+  {
+    width: 100%;
+  }
 }
+} 
 .admin{
 position: absolute;
 width: 318px;
@@ -110,7 +129,7 @@ line-height: 11px;
 color: #000000;
 }
 
-.ADMIN{
+/* .admin1{
 position: absolute; 
 width: 170px;
 height: 138px;
@@ -122,7 +141,7 @@ font-weight: 400;
 font-size: 35px;
 color: #6BC258;
 }
-.Menu{
+.menu1{
  position: absolute; 
 width: 170px;
 height: 138px;
@@ -132,22 +151,11 @@ font-family: Capriola;
 font-style: normal;
 font-weight: 400;
 font-size: 35px;
-/* line-height: 44px; */
 color: #414141;
-/* border: 1px solid rgba(0, 0, 0, 0.1); */
 backdrop-filter: blur(2px);
-}
+} */
 
-body{
-  margin: 0;
-  padding: 0;
-}
-.dashboard{
-  height: 810px;
-  width: 250px;
-  background-color: #6b6565;
-  /* background: linear-gradient(180deg, rgba(179, 177, 177, 0) 13.96%, #2e2b2b 113.96%); */
-  }
+
 
 
 
