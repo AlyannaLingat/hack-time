@@ -18,17 +18,18 @@
  }
  
  .sidebar-item1 {
-  position: fixed;
+  /* position: absolute; */
    width: 170px;
    height: 138px;
    left: 31px;
    top: 30px; 
-   font-family: Capriola;
+   font-family: 'Times New Roman', Times, serif;
    font-style: normal; 
    font-weight: 400;
    font-size: 35px;
    color: #6BC258;
    padding: 20px; 
+   
 
  }
 
@@ -38,7 +39,7 @@
   height: 138px;
   left: 31px;
   top: 70px;  
-  font-family: Capriola;
+  font-family: 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
@@ -77,10 +78,11 @@
   border: none; 
   background: none;
   color:#414141;
-  text-align: left;
-  cursor: pointer;
-  position: bottom;
   text-align: justify;
+  cursor: pointer;
+ 
+  margin-left: 1px;
+  
 }
 
 .sidebar-button:focus {
