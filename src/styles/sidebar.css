@@ -6,7 +6,8 @@
  .sidebar {
   width: 250px;
   height: 100vh;
-  background:  #B3B1B1 ;
+  background: linear-gradient(180deg, rgba(179, 177, 177, 0) 0%, #B3B1B1 100%);
+  /* background:  #B3B1B1 ; */
   /* background-color: #333; */
   color: #fff;
 }
@@ -18,13 +19,12 @@
  }
  
  .sidebar-item1 {
-  /* position: absolute; */
    width: 170px;
    height: 138px;
    left: 31px;
    top: 30px; 
    font-family: 'Times New Roman', Times, serif;
-   font-style: normal; 
+   /* font-style: normal;  */
    font-weight: 400;
    font-size: 35px;
    color: #6BC258;
@@ -40,7 +40,7 @@
   left: 31px;
   top: 70px;  
   font-family: 'Times New Roman', Times, serif;
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: 400;
   font-size: 35px;
   color: #414141;
@@ -71,16 +71,14 @@
   padding: 0;
 }
 .sidebar-button {
-  /* display: absolute; */
     width: 100%; 
    height: 45px;
-  /* padding: 10px;  */
   border: none; 
   background: none;
   color:#414141;
   text-align: justify;
   cursor: pointer;
- 
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-left: 1px;
   
 }

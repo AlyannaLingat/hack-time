@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router";
+// import logo from "./images/logo.png";
 
 
 function Login() {
@@ -74,8 +75,14 @@ function Login() {
         <div  >
           <input className="submit" type="submit" />
         </div>
+
+         <div>
+         <img src="./images/logo.png" alt="  " className='Logo' />
+         </div>
+        
         <div className="HT">HackTime</div>
         <div className="Tracker">Date & Time Hacktime Employee Tracker</div>
+
 
 
       </form>
