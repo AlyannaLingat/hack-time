@@ -29,9 +29,7 @@ const Employee = () => {
 
        data.sort((a, b) => (a.name > b.name ? 1 : -1));
        console.log(data); 
-
-     
-
+       
   return (
     <>
     <h1>Empleyee's List</h1>

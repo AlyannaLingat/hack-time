@@ -19,9 +19,7 @@ function App() {
    
 
       <Routes>
-        {/* <div> 
-        <Sidebar/> 
-          <div className='content'> */}
+        
         <Route path='/*' element={<Login />} />
         <Route path='/dashboard' element={<Dashboard />} />
         <Route path='/timein' element={<TimeIn />} /> 
@@ -29,8 +27,7 @@ function App() {
         <Route path='/newemployee' element={<NewEmployee />} /> 
         <Route path='/Verification' element={<Verification />} /> 
         <Route path='/TimeSheet' element={<TimeSheet />} /> 
-        {/* </div>
-        </div> */}
+        
        </Routes>
     //  {/* </Sidebar> */}
     

@@ -6,13 +6,13 @@ import MainComponent from "./MainComponent";
 function Dashboard() {
   return (
     <>
-    <div className="dashboard">
+    {/* <div className="dashboard"> */}
       <Sidebar />
 
       {/* <TimeInLog />
                         <TotalEmployee />
                         <RecentEmployee /> */}
-    </div>
+    {/* </div> */}
       <MainComponent />
     </>
   );
