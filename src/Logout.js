@@ -1,18 +1,17 @@
 // Logout.js
-
 import React from 'react';
+import Login from './Login';
 
-function Logout({ onLogout }) {
+function Logout() {
   const handleLogout = () => {
-    // Perform logout logic here
-    // Example: Clear authentication tokens or session
+    window.location.assign(<Login />);
 
-    onLogout();
+    // onLogout();
   };
 
   return (
     <div>
-      <button onClick={handleLogout}>Logout</button>
+      <button onClick={handleLogout} className='logout'>Logout</button>
     </div>
   );
 }
